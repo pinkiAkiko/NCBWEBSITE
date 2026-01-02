@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narcotics Control Bureau - Government of India</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-left">
+                <div class="contact-info">
+                    <span><i class="fas fa-envelope"></i> contact-ncb@nic.in</span>
+                    <span><i class="fas fa-phone"></i> +91-11-26761000</span>
+                </div>
+            </div>
+            <div class="top-bar-right">
+                <div class="accessibility-controls">
+                    <button id="decrease-text" title="Decrease Text Size">A-</button>
+                    <button id="reset-text" title="Reset Text Size">A</button>
+                    <button id="increase-text" title="Increase Text Size">A+</button>
+                    <button id="toggle-contrast" title="Toggle High Contrast"><i class="fas fa-adjust"></i></button>
+                </div>
+                <div class="language-toggle">
+                    <a href="#" class="lang-btn">हिन्दी</a>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-branding">
+                <div class="emblem">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/800px-Emblem_of_India.svg.png"
+                        alt="Emblem of India">
+                </div>
+                <div class="logo">
+                    <img src="assets/logo.svg" alt="NCB Logo">
+                    <div class="logo-text">
+                        <span class="agency-name">Narcotics Control Bureau</span>
+                        <span class="ministry-name">Ministry of Home Affairs, Govt. of India</span>
+                    </div>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="header-info-box">
+                    <i class="fas fa-clock"></i>
+                    <div class="header-info-content">
+                        <h5>Working Hours</h5>
+                        <p>Mon - Fri: 09:00 - 17:30</p>
+                    </div>
+                </div>
+                <div class="header-info-box">
+                    <i class="fas fa-shield-alt"></i>
+                    <div class="header-info-content">
+                        <h5>Emergency</h5>
+                        <p>Toll Free: 1908</p>
+                    </div>
+                </div>
+                <button class="btn-primary" onclick="alert('Proceeding to Report Drugs...')">Report Drugs</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav id="mainNav">
+        <div class="container nav-container">
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link active">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">About NCB <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Organisation</a></li>
+                        <li><a href="#">Policy Strategy & Mechanism</a></li>
+                        <li><a href="#">Coordination</a></li>
+                        <li><a href="#">MoU with CBIC etc.</a></li>
+                        <li><a href="#">Important Judgements</a></li>
+                        <li><a href="#">Former NCB Head</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Legal Framework <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Legislations and Directive Principles</a></li>
+                        <li><a href="#">Recruitment Rules</a></li>
+                        <li><a href="#">Circulars / Orders</a></li>
+                        <li><a href="#">Notifications</a></li>
+                        <li><a href="#">RTI</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Enforcement <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Drugs of Abuse</a></li>
+                        <li><a href="#">Important Seizures</a></li>
+                        <li><a href="#">Disposal of Drugs</a></li>
+                        <li><a href="#">Forensic Science Laboratories in India</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Awareness <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Mission SPANDAN</a></li>
+                        <li><a href="#">DLEA</a></li>
+                        <li><a href="#">Awareness Videos</a></li>
+                        <li><a href="#">Rehabilitation Centres</a></li>
+                        <li><a href="#">Visits of NCB Officers</a></li>
+                        <li><a href="#">Important Visitors Photos</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Media <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Latest News</a></li>
+                        <li><a href="#">Press Release</a></li>
+                        <li><a href="#">Photo Gallery</a></li>
+                        <li><a href="#">Video Gallery</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Employee Corner <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Employee Corner</a></li>
+                        <li><a href="#">Vigilance Section</a></li>
+                        <li><a href="#">Training</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Resources <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Hand Book (English/Hindi/Punjabi)</a></li>
+                        <li><a href="#">Publications</a></li>
+                        <li><a href="#">Download Forms</a></li>
+                        <li><a href="#">Related Links</a></li>
+                        <li><a href="#">Tenders</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link">Contact <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Submit a Tip</a></li>
+                        <li><a href="#">MANAS / Helpline</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav-search">
+                <i class="fas fa-search" style="color: white; cursor: pointer;"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main id="main-content">
+        <section class="hero">
+            <div class="container" data-aos="fade-right">
+                <div class="hero-content">
+                    <h1>Leading The Fight Against <span>Narcotics</span></h1>
+                    <p>Ensuring a drug-free India through coordination, prevention, and strict enforcement of the NDPS
+                        Act.
+                    </p>
+                    <div class="hero-btns" data-aos="fade-up" data-aos-delay="200">
+                        <a href="#about" class="btn-primary">Our Mission</a>
+                        <a href="#" class="btn-primary"
+                            style="background: transparent; border: 2px solid white; margin-left: 15px; box-shadow: none;">Watch
+                            Video</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="quick-links">
+            <div class="container">
+                <div class="cards-grid">
+                    <div class="quick-card" data-aos="fade-up" data-aos-delay="100">
+                        <h3>Our Motto</h3>
+                        <p>Intelligence, Enforcement, Coordination. We stand united against the drug menace.</p>
+                        <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="quick-card" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Our Mission</h3>
+                        <p>To prevent and combat drug trafficking and the use of illegal substances under the law.</p>
+                        <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="quick-card" data-aos="fade-up" data-aos-delay="300">
+                        <h3>Our Vision</h3>
+                        <p>A society free from the scourge of drugs, built on the pillars of health and security.</p>
+                        <a href="#" class="read-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DG Message Section -->
+        <section class="dg-message-section">
+            <div class="container">
+                <div class="dg-grid">
+                    <div class="dg-card" data-aos="fade-right">
+                        <div class="dg-image-container">
+                            <img src="assets/dg_ncb.jpg" alt="DG NCB">
+                        </div>
+                        <div class="dg-info">
+                            <h4>Shri Anurag Garg</h4>
+                            <p class="designation">(Director General)</p>
+                            <p class="batch">IPS, Himachal Pradesh: 1993</p>
+                            <div class="dg-affil">
+                                <span>Narcotics Control Bureau</span>
+                                <small>Ministry of Home Affairs<br>Government Of India</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dg-content" data-aos="fade-left">
+                        <p class="salutation">Dear Friends,</p>
+                        <p>Welcome to the official website of the Narcotics Control Bureau (NCB), India. As the nation's
+                            premier agency in the fight against drug trafficking and abuse, the NCB is committed to
+                            safeguarding the health and security of our society by eliminating the menace of narcotic
+                            drugs and psychotropic substances.</p>
+                        <p>Our mission is multifaceted—ranging from intelligence gathering and enforcement to
+                            rehabilitation efforts and public awareness. We work relentlessly to strengthen coordination
+                            among central and state agencies and engage with international partners to ensure that
+                            India's borders remain impervious to the illicit drug trade.</p>
+                        <p>In recent years, we have made significant strides in curbing drug-related crimes through our
+                            focused operations, enhanced inter-agency collaboration, and increased technological
+                            capabilities. The success of these efforts hinges on the collective responsibility of all
+                            stakeholders, including law enforcement agencies, civil society, and each one of you.</p>
+                        <p>Together, let us strive for a drug-free India. I encourage you to explore our website for
+                            information on our activities, initiatives, and ways in which you can contribute to this
+                            cause. Your support and vigilance are invaluable in achieving a healthier, safer future for
+                            all.</p>
+                        <p class="closing">Thank you for your continued trust and cooperation.</p>
+                        <p class="valediction">Warm regards.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About NCB Details -->
+        <section id="about" class="about-details">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text" data-aos="fade-right">
+                        <span class="subheading">About the Bureau</span>
+                        <h2>Dedicated to a <span class="highlight">Drug-Free India</span></h2>
+                        <p>The Narcotics Control Bureau was constituted by the Government of India in 1986 under the
+                            Narcotic Drugs and Psychotropic Substances Act, 1985. It is the apex coordinating agency
+                            under the Ministry of Home Affairs.</p>
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <div>
+                                    <h5>Nodal Agency</h5>
+                                    <p>Apex body for narcotics control & coordination.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-handshake"></i>
+                                <div>
+                                    <h5>International Cooperation</h5>
+                                    <p>Working with global partners like UNODC and Interpol.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-primary">Learn More About NCB</a>
+                    </div>
+                    <div class="about-visual" data-aos="fade-left">
+                        <div class="experience-badge">
+                            <h3>35+</h3>
+                            <p>Years of Service</p>
+                        </div>
+                        <img src="assets/hero.png" alt="NCB Team" class="main-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Focus Areas Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Key Focus Areas</h2>
+                    <p>Explore the diverse roles and responsibilities of the NCB in maintaining national security.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="service-icon"><i class="fas fa-search-location"></i></div>
+                        <div class="service-content">
+                            <h3>Intelligence</h3>
+                            <p>Collecting and analyzing data to dismantle transnational drug trafficking networks.</p>
+                        </div>
+                    </div>
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="service-icon"><i class="fas fa-gavel"></i></div>
+                        <div class="service-content">
+                            <h3>Enforcement</h3>
+                            <p>Rigorous implementation of the NDPS Act to curb illicit activities and prosecute
+                                offenders.</p>
+                        </div>
+                    </div>
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="service-icon"><i class="fas fa-users"></i></div>
+                        <div class="service-content">
+                            <h3>Coordination</h3>
+                            <p>Acting as the nodal agency for all domestic and international anti-drug agencies.</p>
+                        </div>
+                    </div>
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="service-icon"><i class="fas fa-heartbeat"></i></div>
+                        <div class="service-content">
+                            <h3>Awareness</h3>
+                            <p>Spspreading awareness through Mission SPANDAN to educate the youth on drug abuse.</p>
+                        </div>
+                    </div>
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="service-icon"><i class="fas fa-globe"></i></div>
+                        <div class="service-content">
+                            <h3>International Cooperation</h3>
+                            <p>Engaging with global organizations and signing MoUs for cross-border enforcement.</p>
+                        </div>
+                    </div>
+                    <div class="service-item" data-aos="zoom-in" data-aos-delay="600">
+                        <div class="service-icon"><i class="fas fa-file-alt"></i></div>
+                        <div class="service-content">
+                            <h3>Reporting</h3>
+                            <p>Providing detailed annual reports and insights into the drug situation in India.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item" data-aos="fade-up">
+                        <i class="fas fa-user-lock"></i>
+                        <h2 class="counter" data-target="15000">0</h2>
+                        <p>Arrests Made</p>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-boxes"></i>
+                        <h2 class="counter" data-target="850">0</h2>
+                        <p>KG Narcotics Seized</p>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-file-signature"></i>
+                        <h2 class="counter" data-target="12000">0</h2>
+                        <p>Cases Registered</p>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-award"></i>
+                        <h2 class="counter" data-target="250">0</h2>
+                        <p>Awards Received</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Media & Updates Section -->
+        <section class="media-updates" id="news">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Media & Updates</h2>
+                    <p>Official communication and latest developments from the Narcotics Control Bureau.</p>
+                </div>
+                <div class="media-grid">
+                    <!-- Press Releases -->
+                    <div class="media-col" data-aos="fade-right">
+                        <div class="media-column-header">
+                            <h3><i class="fas fa-file-alt"></i> Press Releases</h3>
+                            <a href="#" class="view-all">View All</a>
+                        </div>
+                        <div class="update-list">
+                            <div class="update-item">
+                                <div class="update-date"><span>28</span> DEC</div>
+                                <div class="update-info">
+                                    <a href="#">Joint Operation: 500kg Narcotics Seized in Arabian Sea</a>
+                                    <p>NCB and Indian Navy successful maritime operation...</p>
+                                </div>
+                            </div>
+                            <div class="update-item">
+                                <div class="update-date"><span>24</span> DEC</div>
+                                <div class="update-info">
+                                    <a href="#">Implementation of New NDPS Management System</a>
+                                    <p>Digital transformation for better coordination...</p>
+                                </div>
+                            </div>
+                            <div class="update-item">
+                                <div class="update-date"><span>20</span> DEC</div>
+                                <div class="update-info">
+                                    <a href="#">MOU Signed with Global Drug Enforcement Agencies</a>
+                                    <p>Strengthening international cross-border ties...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Latest News -->
+                    <div class="media-col" data-aos="fade-left">
+                        <div class="media-column-header">
+                            <h3><i class="fas fa-newspaper"></i> Latest News</h3>
+                            <a href="#" class="view-all">View All</a>
+                        </div>
+                        <div class="update-list">
+                            <div class="update-item">
+                                <div class="update-date"><span>27</span> DEC</div>
+                                <div class="update-info">
+                                    <a href="#">Mission SPANDAN: Awareness Drive in Mumbai Schools</a>
+                                    <p>Educating 5000+ students on drug abuse prevention...</p>
+                                </div>
+                            </div>
+                            <div class="update-item">
+                                <div class="update-date"><span>25</span> DEC</div>
+                                <div class="update-info">
+                                    <a href="#">NCB Officer Awarded for Meritorious Service</a>
+                                    <p>Recognition of excellence in field operations...</p>
+                                </div>
+                            </div>
+                            <div class="update-item">
+                                <div class="update-date"><span>21</span> DEC</div>
+                                <div class="update-info">
+                                    <a href="#">Training Workshop for State Police Nodal Officers</a>
+                                    <p>Enhancing technical capabilities across states...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-policies">
+                <a href="#">Website Policies</a>
+                <a href="#">Help</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Feedback</a>
+                <a href="#">Sitemap</a>
+            </div>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About NCB</h3>
+                    <p>The Narcotics Control Bureau (NCB) is the nodal drug law enforcement and intelligence agency of
+                        India, functioning under the Ministry of Home Affairs.</p>
+                    <div class="visitor-counter">
+                        <span>Visitor Counter: </span>
+                        <strong>1,234,567</strong>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Legislation</a></li>
+                        <li><a href="#">Recruitment Rules</a></li>
+                        <li><a href="#">Annual Reports</a></li>
+                        <li><a href="#">Employee Corner</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Important Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">india.gov.in</a></li>
+                        <li><a href="#">mha.gov.in</a></li>
+                        <li><a href="#">Vigilance</a></li>
+                        <li><a href="#">RTI</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-phone"></i> +91-11-26761000</p>
+                    <p><i class="fas fa-envelope"></i> contact-ncb@nic.in</p>
+                    <p><i class="fas fa-map-marker-alt"></i> West Block No. 2, R.K. Puram, New Delhi - 110066</p>
+                </div>
+            </div>
+            <div class="footer-logo-strip">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Digital_India_logo.svg/1200px-Digital_India_logo.svg.png"
+                    alt="Digital India">
+                <img src="https://www.mygov.in/sites/all/themes/mygov/images/mygov-logo.png" alt="MyGov">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/National_Informatics_Centre_Logo.svg/1280px-National_Informatics_Centre_Logo.svg.png"
+                    alt="NIC">
+                <img src="https://upload.wikimedia.org/wikipedia/en/c/c5/Swachh_Bharat_Mission_Logo.png"
+                    alt="Swachh Bharat">
+            </div>
+            <div class="footer-info">
+                <div class="last-updated">Page last updated on: 29 Dec 2025</div>
+                <div class="hosted-by">
+                    <span>Website Content Managed by Narcotics Control Bureau, Ministry of Home Affairs, Govt. of
+                        India</span>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Narcotics Control Bureau, India. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
